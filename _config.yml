@@ -2,10 +2,11 @@
 locale: "en"
 title: "Júlia Palik"
 name: "Júlia Palik"
-description: "Senior Researcher at PRIO. Research on DDR, ceasefires, mediation, Yemen, the Philippines."
-url: "https://<your-username>.github.io"
-baseurl: ""
-repository: "<your-username>/<your-username>.github.io"
+description: "Senior Researcher at PRIO. Research on the reintegration of ex-combatants and veterans, rituals, and women in war."
+url: "https://juliapalik.github.io"
+baseurl: "/julia-palik"
+repository: "juliapalik/julia-palik"
+
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -22,7 +23,7 @@ permalink: pretty
 author:
   name: "Júlia Palik"
   avatar: "/assets/img/profile.jpg"
-  bio: "Senior Researcher, Peace Research Institute Oslo (PRIO). Co-leader, Gender Research Group (2025). UNIDIR Fellow."
+  bio: "Senior Researcher, Peace Research Institute Oslo (PRIO). Co-leader, Gender Research Group. UNIDIR Fellow."
   location: "Oslo, Norway"
   email: "julpal@prio.org"
   links:
