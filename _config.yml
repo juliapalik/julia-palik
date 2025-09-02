@@ -1,0 +1,73 @@
+# Site basics
+locale: "en"
+title: "Júlia Palik"
+name: "Júlia Palik"
+description: "Senior Researcher at PRIO. Research on DDR, ceasefires, mediation, Yemen, the Philippines."
+url: "https://<your-username>.github.io"
+baseurl: ""
+repository: "<your-username>/<your-username>.github.io"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Build
+markdown: kramdown
+permalink: pretty
+
+# Author profile
+author:
+  name: "Júlia Palik"
+  avatar: "/assets/img/profile.jpg"
+  bio: "Senior Researcher, Peace Research Institute Oslo (PRIO). Co-leader, Gender Research Group (2025). UNIDIR Fellow."
+  location: "Oslo, Norway"
+  email: "julpal@prio.org"
+  links:
+    - label: "PRIO"
+      icon: "fas fa-university"
+      url: "https://www.prio.org/people/julia-palik"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/juliapalik1"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "#"  # add if you have
+
+# Navigation
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# SEO
+breadcrumbs: true
+search: true
+atom_feed:
+  hide: false
+
+# Footer
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:julpal@prio.org"
+    - label: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/juliapalik1"
+
+# Analytics (optional)
+# google_analytics: "G-XXXXXXX"
