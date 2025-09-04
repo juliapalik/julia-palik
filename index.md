@@ -1,4 +1,3 @@
-this is what I do
 ---
 layout: splash
 title: "Júlia Palik"
@@ -12,4 +11,4 @@ actions:
 excerpt: "Senior Researcher at PRIO. Research on ex-combatants' and veterans' reintegration, rituals, and women in war."
 ---
 
-Nice to meet you — use the menu above to explore my publications and projects.
+This is what I do.
