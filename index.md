@@ -12,4 +12,4 @@ actions:
 excerpt: "Senior Researcher at PRIO. Research on ex-combatants' and veterans' reintegration, rituals, and women in war."
 ---
 
-Welcome — use the menu above to explore my publications, projects, teaching, and more.
+Nice to meet you — use the menu above to explore my publications and projects.
