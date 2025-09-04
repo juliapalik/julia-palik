@@ -1,20 +1,23 @@
-html, body {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-               "Liberation Mono", "Courier New", monospace;
-  font-size: 16.5px;
-  line-height: 1.65;
+/* One stack to rule them all */
+:root{
+  --jp-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+             "Liberation Mono", "Courier New", monospace;
 }
-h1, h2, h3, h4, h5, h6,
-.site-title, .page__title,
-.nav__list .nav__items > li > a {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-               "Liberation Mono", "Courier New", monospace;
-  letter-spacing: 0.2px;
-  font-weight: 600;
+
+/* Apply to all major containers, with !important to beat theme order */
+html, body, .page, .page__content, .masthead, .site-title,
+.nav__list .nav__items > li > a, .sidebar, .page__meta,
+.archive__item-title, .archive__item-excerpt {
+  font-family: var(--jp-mono) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Keep code blocks consistent */
+code, pre, kbd, samp { font-family: var(--jp-mono) !important; }
+
+/* Optional: comfortable reading width */
 .page__content p { max-width: 75ch; }
-code, pre, kbd, samp {
-  font-family: inherit;
-  font-size: 0.95em;
-  font-weight: 450;
-}
+
+/* Optional sizes */
+html, body { font-size: 16.5px; line-height: 1.65; }
