@@ -1,0 +1,21 @@
+/* Professional monospace stack site-wide */
+html, body {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+  font-size: 16.5px;
+  line-height: 1.65;
+}
+h1, h2, h3, h4, h5, h6,
+.site-title, .page__title,
+.nav__list .nav__items > li > a {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+.page__content p { max-width: 75ch; }
+code, pre, kbd, samp {
+  font-family: inherit;
+  font-size: 0.95em;
+  font-weight: 450;
+}
